@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.header .logo {
+    font-size: 1.5rem;
+}
+
+.header .nav-links {
+    list-style: none;
+}
+
+.header .nav-links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.header .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.hero {
+    margin-top: 50px;
+    text-align: center;
+    padding: 50px 20px;
+    background: url('hero-background.jpg') no-repeat center center/cover;
+    color: #fff;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.cta {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+.about-section, .services-section {
+    padding: 50px 20px;
+    background: #fff;
+    text-align: center;
+}
+
+.about-section h2, .services-section h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.hover-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #eee;
+}
+
+.hover-section h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.hover-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.hover-box {
+    padding: 50px;
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.hover-box:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+}
+
+.footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer h2 {
+    margin-bottom: 10px;
+}
+
+.footer p {
+    font-size: 1rem;
+}
