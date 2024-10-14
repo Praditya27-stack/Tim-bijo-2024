@@ -6,40 +6,92 @@
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f0f0f0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
 }
 
-.container {
+.header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
     text-align: center;
 }
 
-h1 {
+.header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.header .logo {
+    font-size: 1.5rem;
+}
+
+.header .nav-links {
+    list-style: none;
+}
+
+.header .nav-links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.header .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.hero {
+    margin-top: 50px;
+    text-align: center;
+    padding: 50px 20px;
+    background: url('hero-background.jpg') no-repeat center center/cover;
+    color: #fff;
+}
+
+.hero h2 {
+    font-size: 3rem;
     margin-bottom: 20px;
 }
 
-.board {
-    display: grid;
-    grid-template-columns: repeat(3, 100px);
-    grid-template-rows: repeat(3, 100px);
-    gap: 5px;
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
 }
 
-.cell {
-    width: 100px;
-    height: 100px;
-    background-color: #fff;
-    border: 2px solid #000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.cta {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.about-section, .services-section {
+    padding: 50px 20px;
+    background: #fff;
+    text-align: center;
+}
+
+.about-section h2, .services-section h2 {
+    margin-bottom: 20px;
     font-size: 2rem;
-    cursor: pointer;
 }
 
-.cell:hover {
-    background-color: #f9f9f9;
+.footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer h2 {
+    margin-bottom: 10px;
+}
+
+.footer p {
+    font-size: 1rem;
 }
