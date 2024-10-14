@@ -74,3 +74,13 @@ body {
 .login-btn:hover {
     background-color: #0056b3;
 }
+=======
+.h1{
+    color: yellowgreen;
+    size: 50px;
+}
+p{
+    color:aqua;
+    size: 10x;
+
+}
